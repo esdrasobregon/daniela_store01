@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "233633068106",
+    "firebase_url": "https://daniela-store.firebaseio.com",
+    "project_id": "daniela-store",
+    "storage_bucket": "daniela-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233633068106:android:91e4a0a0c014ea58f9a2b3",
+        "android_client_info": {
+          "package_name": "com.esdrasobregon103.daniela_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233633068106-kh85b5a4ljq999m2r6u8ps8j89e77ll0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf2ZjNdIaBRilFMY74QKegBsgmbqALEAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233633068106-kh85b5a4ljq999m2r6u8ps8j89e77ll0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
