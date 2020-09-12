@@ -1,4 +1,4 @@
-import 'package:daniela_store/mnodels/brews.dart';
+import 'package:daniela_store/models/brews.dart';
 import 'package:flutter/material.dart';
 
 class BrewTile extends StatelessWidget {

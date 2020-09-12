@@ -1,4 +1,4 @@
-import 'package:daniela_store/mnodels/user.dart';
+import 'package:daniela_store/models/user.dart';
 import 'package:daniela_store/screens/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

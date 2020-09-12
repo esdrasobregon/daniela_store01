@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:daniela_store/mnodels/brews.dart';
-import 'package:daniela_store/mnodels/user.dart';
+import 'package:daniela_store/models/brews.dart';
+import 'package:daniela_store/models/user.dart';
 
 class DatabaseService {
   final String uid;

@@ -1,4 +1,4 @@
-import 'package:daniela_store/mnodels/brews.dart';
+import 'package:daniela_store/models/brews.dart';
 import 'package:daniela_store/screens/home/brew_list.dart';
 import 'package:daniela_store/screens/home/settings.dart';
 import 'package:daniela_store/screens/services/auth.dart';

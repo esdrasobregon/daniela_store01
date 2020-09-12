@@ -1,4 +1,4 @@
-import 'package:daniela_store/mnodels/user.dart';
+import 'package:daniela_store/models/user.dart';
 import 'package:daniela_store/screens/authenticate/authenticate.dart';
 import 'package:daniela_store/screens/home/home.dart';
 import 'package:flutter/material.dart';
