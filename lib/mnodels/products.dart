@@ -1,6 +1,6 @@
 class Product{
   String name;
-  String lastname;
-  DateTime birthday;
-  String genre;
+  String code;
+  DateTime createdDate;
+  String id;
 }
