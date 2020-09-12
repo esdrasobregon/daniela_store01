@@ -1,6 +1,7 @@
 import 'package:daniela_store/models/user.dart';
 import 'package:daniela_store/screens/authenticate/authenticate.dart';
 import 'package:daniela_store/screens/home/home.dart';
+import 'package:daniela_store/screens/products/products_form.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'home/home.dart';
@@ -16,7 +17,8 @@ class Wrapper extends StatelessWidget {
     if (user == null) {
       return Authenticate();
     } else {
-      return Home();
+      //return Home();
+      return ProductHome();
     }
   }
 }
