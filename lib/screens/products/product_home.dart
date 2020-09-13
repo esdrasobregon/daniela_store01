@@ -17,16 +17,7 @@ class _ProductSettingsState extends State<ProductSettings> {
   @override
   Widget build(BuildContext context) {
     final user = Provider.of<User>(context);
-    void _showSettingsPanel() {
-      showModalBottomSheet(
-          context: context,
-          builder: (context) {
-            return Container(
-              padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 60.0),
-            );
-          });
-    }
-
+    
     return StreamProvider<List<Brew>>.value(
       value: DatabaseService().brews,
       child: Scaffold(
@@ -44,7 +35,7 @@ class _ProductSettingsState extends State<ProductSettings> {
                 label: Text('Logout'),
               ),
               FlatButton.icon(
-                onPressed: () => _showSettingsPanel(),
+                onPressed: () => _showSettingsPanel(context),
                 icon: Icon(Icons.settings),
                 label: Text('Settings'),
               ),
@@ -60,4 +51,13 @@ class _ProductSettingsState extends State<ProductSettings> {
           ])),
     );
   }
+  void _showSettingsPanel(BuildContext context) {
+      showModalBottomSheet(
+          context: context,
+          builder: (context) {
+            return Container(
+              padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 60.0),
+            );
+          });
+    }
 }

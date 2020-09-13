@@ -55,12 +55,17 @@ class _productHomeState extends State<ProductHome> {
           ),
           body: Column(children: <Widget>[
             ProductInfoForm(),
-            ProductInfoForm(),
             RaisedButton(
-                child: Text('Next'), onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => ProductSettings()));
+                child: Text('Next'),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (BuildContext context) =>
+                              ProductSettings()));
                 }),
           ])),
     );
   }
-}
+
+  }
